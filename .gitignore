@@ -1,0 +1,30 @@
+# Obsidian internals
+.obsidian/
+vault/.obsidian/
+
+# Environment and secrets
+.env
+.env.local
+*.key
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (for MCP servers)
+node_modules/
+
+# Python venv
+venv/
+__pycache__/
+
+# Raw source documents (contain home address, phone number, personal email)
+vault/sources/
+
+# Vault pages with FirmaTRUST's specific real revenue/performance figures
+# (kept locally for James's real use; not published in the public repo)
+vault/me/role.md
+vault/business/firmatrust.md
+
+*.tmp
+*.bak
