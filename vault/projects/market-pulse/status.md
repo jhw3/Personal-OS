@@ -3,7 +3,7 @@ db_id: 1f9a66a6-a11d-4168-9fd6-636e5567f1c0
 data_source_id: 33d62adc-d60c-42ac-96a5-f3b28e346a68
 parent_page_id: 3ac25c27-d89b-814b-838f-cfb4f9bfc796
 created: 2026-07-29
-last_run: 2026-07-29
+last_run: 2026-08-12
 tags: [projects, market-pulse]
 ---
 
@@ -17,7 +17,8 @@ Weekly competitive/market scan for FirmaTRUST. Reads [[business/competitors/watc
 - **Database URL:** https://app.notion.com/p/1f9a66a6a11d41689fd6636e5567f1c0
 - **View:** All Pulses (table, sorted by Date descending)
 - **Created:** 2026-07-29
-- **Last run:** 2026-07-29
+- **Last run:** 2026-08-12 (ad hoc named-competitor scan, James's Maven cohort — differentiation still pending his own bootcamp specifics)
 
 ## Pulses
-Latest: [[projects/market-pulse/pulses/2026-07-29]]
+- [2026-08-12](pulses/2026-08-12.md) — Maven Claude Code/Cowork bootcamp competitors: 3 named, differentiation open pending James's price/format/audience
+- [2026-07-29](pulses/2026-07-29.md) — generic scan, no watchlist yet

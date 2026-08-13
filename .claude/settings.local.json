@@ -55,7 +55,23 @@
       "PowerShell(winget install *)",
       "Bash(gh auth *)",
       "Bash(git init *)",
-      "Bash(git add *)"
+      "Bash(git add *)",
+      "Bash(git config *)",
+      "Bash(gh api *)",
+      "Bash(GIT_AUTHOR_NAME='James H. Williams III' GIT_AUTHOR_EMAIL=jhw3@users.noreply.github.com GIT_COMMITTER_NAME='James H. Williams III' GIT_COMMITTER_EMAIL=jhw3@users.noreply.github.com git commit -m ' *)",
+      "Bash(gh repo *)",
+      "Bash(GIT_AUTHOR_NAME=\"James H. Williams III\" GIT_AUTHOR_EMAIL=\"jhw3@users.noreply.github.com\" GIT_COMMITTER_NAME=\"James H. Williams III\" GIT_COMMITTER_EMAIL=\"jhw3@users.noreply.github.com\" git commit -m \"Log the initial GitHub push in vault/log.md\")",
+      "Bash(git push *)",
+      "WebFetch(domain:maven.com)",
+      "Bash(python3 -c \"import zipfile; zipfile.ZipFile\\('../brand/templates/powerpoint_example.pptx'\\).extractall\\('example_unpacked'\\)\")",
+      "Bash(rm -f ../humanoid-robotics.pptx)",
+      "Bash(zip -Xr ../humanoid-robotics.pptx . -x '.*')",
+      "Bash(markitdown humanoid-robotics.pptx)",
+      "mcp__claude_ai_Notion__notion-create-file-upload",
+      "Bash(curl *)",
+      "mcp__claude_ai_Notion__notion-get-teams",
+      "mcp__claude_ai_Notion__notion-move-pages",
+      "Bash(git remote *)"
     ]
   }
 }

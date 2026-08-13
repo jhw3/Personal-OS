@@ -100,6 +100,18 @@ When generating PPT, Excel, PDF, or images:
 
 **Notion isolation:** ALL databases under the "Personal OS" parent page. Parent ID in vault/projects/notion-parent-id.md. Read from anywhere, write only under the parent.
 
+**Every `notion-create-pages` call that targets an existing database (routine automation runs, not just first-run bootstrap) MUST include the top-level `parent: {type: "data_source_id", data_source_id: "..."}` argument.** Omitting `parent` does not error — Notion silently creates the page(s) as standalone, workspace-level private pages instead, and any properties passed (Type, Subject, Date, etc.) are silently dropped too, since non-database pages only accept `title`. This happened for real on 2026-08-12 (Research Team run) and only surfaced because James noticed the pages under "Private" in his sidebar — the tool call itself reported success. Get the `data_source_id` from `vault/projects/{automation}/status.md`, never hardcode or guess it.
+
+**Post-write verification (mandatory, every automation run that writes to Notion):** after any `notion-create-pages` call meant to land inside a database, confirm it actually landed there before reporting success to the user — either `notion-fetch` the new page and check `<ancestor-path>` names the expected database, or `notion-query-data-sources` (SQL mode) against the target `data_source_id` and confirm the new row appears. Do not rely on the create call's own success response as proof of correct placement.
+
+**Attaching files (PPT/PDF/images) to a Notion page:**
+1. `notion-create-file-upload(filename, content_type)` → returns `upload_url`, `upload_headers`, and `file_upload_id`.
+2. POST the local file to `upload_url` via `curl -F "file=@path;filename=...;type=<content_type>"` — the `type=` on the multipart field is required; Notion 400s with a content-type mismatch error if the part defaults to `application/octet-stream`. Use the exact MIME type returned in step 1.
+3. Embed `<file src="file-upload://{file_upload_id}"></file>` in the page's `content` markdown — either on a new page (with the correct `parent`, per the rule above) or via `notion-update-page` on an existing one.
+
+## Command → Notion Database Map
+Every command's Notion writes go under that command's own database, never a shared or ad-hoc location. Look up the `data_source_id` from `vault/projects/{name}/status.md` before every write — do not reuse an ID from a different automation's status.md, and do not create a page with no parent "for now." If the correct database isn't bootstrapped yet, run the bootstrap sequence first (see Bootstrap Protocol) rather than writing a page anywhere else.
+
 ## Self-Correction Loop
 
 When an MCP call fails:
