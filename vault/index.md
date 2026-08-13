@@ -29,6 +29,8 @@ relevant pages, then drills into them.
 
 ## Projects
 - [notion-parent-id.md](projects/notion-parent-id.md) — Personal OS parent page ID in Notion
+- [cron-token.md](projects/cron-token.md) — scheduling token reference (raw token never stored in vault/repo, lives outside the repo)
+- [cron-paths.md](projects/cron-paths.md) — cached binary paths for Task Scheduler activation
 - [sprint-tracker/status.md](projects/sprint-tracker/status.md) — Progress Tracker DB, 10 automations seeded, Sprint Tracker automation live (1/10 Done)
 - [sprint-tracker/standups/2026-07-29.md](projects/sprint-tracker/standups/2026-07-29.md) — first standup, baseline board read
 - [morning-brief/status.md](projects/morning-brief/status.md) — daily Calendar + Gmail + board rundown, Notion DB live (2/10 Done)

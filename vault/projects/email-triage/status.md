@@ -3,7 +3,7 @@ db_id: c3ea363e-09fc-4e46-998f-30a78b0b3f15
 data_source_id: 1c4df926-8e8e-4dff-acc7-068a6d3bc6c2
 parent_page_id: 3ac25c27-d89b-814b-838f-cfb4f9bfc796
 created: 2026-07-30
-last_run:
+last_run: 2026-07-30
 gmail_labels:
   needs_reply: Label_1
   fyi: Label_2

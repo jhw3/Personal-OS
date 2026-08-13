@@ -3,7 +3,7 @@ db_id: e6ab47a4-6dc0-460c-8293-60cc6c0c821f
 data_source_id: cacc1050-d0bd-4663-bc75-a41681e6a260
 parent_page_id: 3ac25c27-d89b-814b-838f-cfb4f9bfc796
 created: 2026-07-30
-last_run:
+last_run: 2026-07-30
 tags: [projects, expense-wrangler]
 ---
 

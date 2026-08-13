@@ -3,7 +3,7 @@ db_id: 2c3b355c-d69c-4d1d-a030-077c8e4d4e1d
 data_source_id: ffc0e0fb-47c3-4c73-93b2-29c556aed1d5
 parent_page_id: 3ac25c27-d89b-814b-838f-cfb4f9bfc796
 created: 2026-07-30
-last_run:
+last_run: 2026-07-30
 tags: [projects, meeting-intel]
 ---
 

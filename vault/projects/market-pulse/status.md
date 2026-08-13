@@ -17,7 +17,7 @@ Weekly competitive/market scan for FirmaTRUST. Reads [[business/competitors/watc
 - **Database URL:** https://app.notion.com/p/1f9a66a6a11d41689fd6636e5567f1c0
 - **View:** All Pulses (table, sorted by Date descending)
 - **Created:** 2026-07-29
-- **Last run:** 2026-08-12 (ad hoc named-competitor scan, James's Maven cohort — differentiation still pending his own bootcamp specifics)
+- **Last run:** 2026-08-12 (ad hoc named-competitor scan, James's Maven cohort — differentiation still pending his own bootcamp specifics; note this run covers Maven bootcamp competitors, not the FirmaTRUST/SMB-automation competitive frame this spec's Purpose section describes — an intentional on-demand request, not a bug)
 
 ## Pulses
 - [2026-08-12](pulses/2026-08-12.md) — Maven Claude Code/Cowork bootcamp competitors: 3 named, differentiation open pending James's price/format/audience

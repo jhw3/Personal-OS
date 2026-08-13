@@ -28,3 +28,6 @@ vault/business/firmatrust.md
 
 *.tmp
 *.bak
+
+# Scheduled task run logs (routine cron/Task Scheduler output, not vault content)
+outputs/logs/

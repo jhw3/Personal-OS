@@ -3,7 +3,7 @@ db_id: 8b4d5890-dff0-4774-b36e-e275909040ee
 data_source_id: 8259a419-9d10-4360-a0d9-e7645ca7a838
 parent_page_id: 3ac25c27-d89b-814b-838f-cfb4f9bfc796
 created: 2026-07-30
-last_run:
+last_run: 2026-07-30
 tags: [projects, weekly-exec-report]
 ---
 
