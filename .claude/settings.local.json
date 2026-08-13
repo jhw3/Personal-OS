@@ -71,7 +71,12 @@
       "Bash(curl *)",
       "mcp__claude_ai_Notion__notion-get-teams",
       "mcp__claude_ai_Notion__notion-move-pages",
-      "Bash(git remote *)"
+      "Bash(git remote *)",
+      "Bash(GIT_AUTHOR_NAME=\"James H. Williams III\" GIT_AUTHOR_EMAIL=\"jhw3@users.noreply.github.com\" GIT_COMMITTER_NAME=\"James H. Williams III\" GIT_COMMITTER_EMAIL=\"jhw3@users.noreply.github.com\" git commit -m \"Log the repo rename to Personal-OS in vault/log.md\")",
+      "Bash(claude doctor *)",
+      "Bash(sed -i 's/{Platform} — {Type}/{Platform}: {Type}/g' work/09-content-machine/CLAUDE.md .claude/commands/content-machine.md vault/projects/content-machine/status.md vault/projects/content-machine/kits/2026-08-13-humanoid-robotics-race.md)",
+      "Bash(sed -i 's/Content Library — Humanoid Robotics Race/Content Library: Humanoid Robotics Race/' vault/projects/content-machine/kits/2026-08-13-humanoid-robotics-race.md)",
+      "mcp__claude_ai_Notion__notion-update-view"
     ]
   }
 }

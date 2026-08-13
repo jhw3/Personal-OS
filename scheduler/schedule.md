@@ -64,12 +64,6 @@ To activate these schedules: Open Cowork → Schedule sidebar → Create a local
 - Description: Scans Gmail for SaaS subscription/trial signals, tracks status and cost (never fabricates a cost from a public list price). Posts to Notion and regenerates outputs/expense-wrangler/subscriptions.xlsx.
 - Added: 2026-07-30
 
-### Content Machine
-- Command: /content-machine
-- Frequency: weekly, Fridays at 10:00 AM (also available on-demand with a topic argument any time)
-- Description: Drafts LinkedIn posts + a newsletter from real vault signal (Sprint Tracker, Market Pulse, Research Team). Newsletter staged as a Gmail draft, never sent. Never auto-posts to LinkedIn.
-- Added: 2026-07-30
-
 ### Weekly Exec Report
 - Command: /weekly-exec-report
 - Frequency: weekly, Fridays at 4:00 PM (also available on-demand)

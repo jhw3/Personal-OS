@@ -45,8 +45,9 @@ relevant pages, then drills into them.
 - [email-triage/triages/2026-07-30.md](projects/email-triage/triages/2026-07-30.md) — first triage, full 61-thread backlog: 0 Needs Reply, 10 FYI, 51 Noise
 - [expense-wrangler/status.md](projects/expense-wrangler/status.md) — SaaS subscription/trial tracking from Gmail signal, Notion DB live (8/10 Done)
 - [expense-wrangler/scans/2026-07.md](projects/expense-wrangler/scans/2026-07.md) — first scan: Slack Pro, Zapier Pro, Google Cloud, Cursor Pro — all $0 confirmed spend
-- [content-machine/status.md](projects/content-machine/status.md) — LinkedIn + newsletter drafts from real vault signal, Notion DB live (9/10 Done)
-- [content-machine/drafts/2026-07-30.md](projects/content-machine/drafts/2026-07-30.md) — first batch: 3 LinkedIn options, 1 newsletter (Gmail draft), 1 quote-card image
+- [content-machine/status.md](projects/content-machine/status.md) — rebuilt 2026-08-13 into two commands (/content-machine create, /content-plan calendar), new Content Library Notion DB, 6-platform 3-agent pipeline
+- [content-machine/drafts/2026-07-30.md](projects/content-machine/drafts/2026-07-30.md) — legacy first batch (pre-rebuild): 3 LinkedIn options, 1 newsletter (Gmail draft), 1 quote-card image
+- [content-machine/kits/2026-08-13-humanoid-robotics-race.md](projects/content-machine/kits/2026-08-13-humanoid-robotics-race.md) — first kit under the new pipeline: all 6 platform formats from the humanoid robotics research
 - [weekly-exec-report/status.md](projects/weekly-exec-report/status.md) — capstone rollup of all 9 other automations, Notion DB live (10/10 Done — board complete)
 - [weekly-exec-report/reports/2026-07-30.md](projects/weekly-exec-report/reports/2026-07-30.md) — first report: the day the whole Personal OS went live
 

@@ -154,7 +154,7 @@ This table is populated as automations are built via /new.
 | 6 | /meeting-intel | work/06-meeting-intel/ | On-demand + Scheduled (daily 6:30AM) | Pre-meeting briefs + post-meeting notes/action items | Personal CRM, Weekly Exec Report |
 | 7 | /email-triage | work/07-email-triage/ | On-demand + Scheduled (daily 8AM) | Sorts inbox into Needs Reply/FYI/Noise Gmail labels, categorize-only | Personal CRM, Weekly Exec Report |
 | 8 | /expense-wrangler | work/08-expense-wrangler/ | On-demand + Scheduled (monthly, 1st 8AM) | SaaS subscription/trial tracking from Gmail signal, never fabricates cost | Weekly Exec Report |
-| 9 | /content-machine | work/09-content-machine/ | On-demand + Scheduled (weekly, Fri 10AM) | LinkedIn posts + newsletter drafts from real vault signal, never auto-posts | (terminal — none) |
+| 9 | /content-machine, /content-plan | work/09-content-machine/ | On-demand only, no schedule | 3-agent pipeline (Researcher/Writer/Editor) turns a source into 6 platform-native formats; /content-plan proposes and seeds a content calendar off vault gaps. Never auto-posts | (terminal — none) |
 | 10 | /weekly-exec-report | work/10-weekly-exec-report/ | On-demand + Scheduled (weekly, Fri 4PM) | One-page PDF + Notion rollup of all 9 other automations | (terminal — none) |
 <!-- Entries added automatically when automations are built -->
 
